@@ -129,13 +129,13 @@ weight = 10
 
 [[menu.main]]
 identifier = "portifolio"
-name = "Portifolio"
-url = "/portifolio/"
+name = "Portfólio"
+url = "/Portfólio/"
 weight = 20
 
 [[menu.main]]
-identifier = "About"
-name = "About"
+identifier = "Sobre Mim"
+name = "Sobre Mim"
 url = "/posts/sobre"
 weight = 30
 
@@ -146,8 +146,8 @@ url = "/tags/"
 weight = 40
 
 [[menu.main]]
-identifier = "Resume"
-name = "Resume"
+identifier = "Resumo"
+name = "Resumo"
 url = "https://www.canva.com/design/DAFxJcTxwkw/un_Po8lSHtoYVhdaWk1ybg/view?utm_content=DAFxJcTxwkw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
 weight = 50
 
