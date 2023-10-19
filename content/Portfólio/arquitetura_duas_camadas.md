@@ -13,7 +13,7 @@ cover:
 ---
 
 ## "Implantação uma arquitetura de duas camadas na AWS usando Terraform"
-Confira o código completo aqui no [github](https://github.com/BrendoTrindade/aws-verde-azul.git)
+Confira o código completo aqui no [github](https://github.com/BrendoTrindade/aws-duas-camadas.git)
 
 > ### Nesse projeto foram usado as seguintes tecnologias
 >
