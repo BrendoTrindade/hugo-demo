@@ -128,7 +128,7 @@ url = "/posts/"
 weight = 10
 
 [[menu.main]]
-identifier = "portifolio"
+identifier = "Portfólio"
 name = "Portfólio"
 url = "/Portfólio/"
 weight = 20
