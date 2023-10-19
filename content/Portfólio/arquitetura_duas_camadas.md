@@ -307,3 +307,21 @@ Este recurso cria um Load Balancer AWS com configurações específicas, como no
 exploramos os arquivos e códigos usados para provisionar infraestrutura na AWS usando Terraform. Os arquivos variables.tf, vpc_sub_ec2.tf e elb.tf descrevem as variáveis, os recursos de infraestrutura e as configurações associadas a eles. Isso permite que você automatize a criação e gerenciamento de recursos na AWS de maneira consistente e controlada.
 
 Com Terraform, é possível criar infraestruturas complexas e definir todos os detalhes usando código, tornando o processo de implantação e gerenciamento mais eficiente e escalável.
+
+## Resumo da Arquitetura
+
+Nossa arquitetura de duas camadas conterá os seguintes componentes:
+
+Implantar uma VPC com CIDR 10.0.0.0/16.
+
+Dentro da VPC teremos 2 sub-redes públicas com CIDR 10.0.1.0/24 e 10.0.2.0/24. Cada sub-rede pública estará em uma zona de disponibilidade diferente para alta disponibilidade.
+
+Crie 2 sub-redes privadas com CIDR '10.0.3.0/24' e '10.0.4.0/24' e cada uma estará em uma zona de disponibilidade diferente.
+
+Instância RDS MySQL (micro).
+
+Um balanceador de carga que direcionará o tráfego para as sub-redes públicas.
+
+Implante 1 instância EC2 t2.micro em cada sub-rede pública.
+
+IGW anexado a VPC na região east-1.
