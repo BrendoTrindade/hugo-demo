@@ -17,7 +17,7 @@ minifyOutput = true
 env = "production"
 title = "Brendo Blog"
 description = "My Brendo Blog"
-keywords = [ "Blog", "Portfolio", "DevOps" ]
+keywords = [ "Blog", "Portfólio", "DevOps" ]
 author = "Brendo Trindade"
 images = [ "brendo.png" ]
 DateFormat = "January 2, 2006"
@@ -70,8 +70,8 @@ ShareButtons = [ "linkedin", "telegram" ]
     url = "tags"
 
     [[params.profileMode.buttons]]
-    name = "Portifolio"
-    url = "portifolio"
+    name = "Portfólio"
+    url = "Portfólio"
 
   [params.homeInfoParams]
   Title = "Ola, eu sou o Brendo 👋"
