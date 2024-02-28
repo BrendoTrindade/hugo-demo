@@ -171,7 +171,7 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 ```
 
-### dependencies
+### Dependencies
 ```c++
 RUN npm install
 ```
@@ -180,7 +180,7 @@ RUN npm install
 COPY . .
 ```
 
-### port 8080
+### Port 8080
 
 ```c++
 EXPOSE 8080
