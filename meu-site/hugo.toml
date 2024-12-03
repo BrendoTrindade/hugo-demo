@@ -1,0 +1,161 @@
+baseURL = "https://brendotrindade.netlify.app/"
+title = "Brendo Blog"
+paginate = 5
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+googleAnalytics = "UA-123-45"
+pygmentsUseClasses = true
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "Brendo Blog"
+description = "My Brendo Blog"
+keywords = [ "Blog", "Portfólio", "DevOps" ]
+author = "Brendo Trindade"
+images = [ "brendo.png" ]
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = true
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+ShareButtons = [ "linkedin", "telegram" ]
+
+  [params.assets]
+  favicon = "<link / abs url>"
+  favicon16x16 = "<link / abs url>"
+  favicon32x32 = "<link / abs url>"
+  apple_touch_icon = "<link / abs url>"
+  safari_pinned_tab = "<link / abs url>"
+
+  [params.label]
+  text = "Home"
+  icon = "/apple-touch-icon.png"
+  iconHeight = 35
+
+  [params.profileMode]
+  enabled = true
+  title = "DEVOPS ENGINEER | CLOUD ANALYST"
+  subtitle = "Welcome to my Blog"
+  imageUrl = "brendo.png"
+  imageWidth = 240
+  imageHeight = 240
+  imageTitle = "Meu Avatar"
+
+    [[params.profileMode.buttons]]
+    name = "Posts"
+    url = "posts"
+
+    [[params.profileMode.buttons]]
+    name = "Tags"
+    url = "tags"
+
+    [[params.profileMode.buttons]]
+    name = "Portfólio"
+    url = "Portfólio"
+
+  [params.homeInfoParams]
+  Title = "Ola, eu sou o Brendo 👋"
+  Content = "Bem vindo ao meu blog"
+
+  [[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/brendo-trindade/"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/BrendoTrindade"
+
+  [[params.socialIcons]]
+  name = "telegram"
+  url = "https://t.me/brendo_trindade"
+
+  [[params.socialIcons]]
+  name = "email"
+  url = "mailto:brendofut44@gmail.com"
+
+[params.analytics.google]
+SiteVerificationTag = "XYZabc"
+
+[params.analytics.bing]
+SiteVerificationTag = "XYZabc"
+
+[params.analytics.yandex]
+SiteVerificationTag = "XYZabc"
+
+  [params.cover]
+  hidden = false
+  hiddenInList = true
+  hiddenInSingle = false
+
+  [params.editPost]
+  URL = ""
+  Text = "Suggest Changes"
+  appendFilePath = true
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = [ "title", "permalink", "summary", "content" ]
+
+[[menu.main]]
+identifier = "Posts"
+name = "Posts"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
+identifier = "Portfólio"
+name = "Portfólio"
+url = "/Portfólio/"
+weight = 20
+
+[[menu.main]]
+identifier = "Sobre Mim"
+name = "Sobre Mim"
+url = "/posts/sobre"
+weight = 30
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 40
+
+[[menu.main]]
+identifier = "Resumo"
+name = "Resumo"
+url = "https://rxresu.me/brendo.trindade/resumo"
+weight = 50
+
+[[menu.main]]
+identifier = "Linktree"
+name = "Linktree"
+url = "https://linktr.ee/brendo_trindade"
+weight = 60
+
+[markup.highlight]
+noClasses = false
