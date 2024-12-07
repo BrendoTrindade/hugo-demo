@@ -2,4 +2,4 @@
 title: "Portfolio"
 ---
 
-Bem vindo ao meu portfolio :D
+Bem vindo ao meu portifolio :D
