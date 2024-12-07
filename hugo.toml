@@ -140,16 +140,18 @@ url = "/posts/sobre/"
 weight = 30
 
 [[menu.main]]
-identifier = "resume"
-name = "Resumo"
+identifier = "curriculo"
+name = "Currículo"
 url = "https://rxresu.me/brendo.trindade/resumo"
 weight = 40
+target = "_blank"
 
 [[menu.main]]
 identifier = "linktree"
 name = "Linktree"
 url = "https://linktr.ee/brendo_trindade"
 weight = 50
+target = "_blank"
 
 [markup.highlight]
 noClasses = false
