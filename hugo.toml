@@ -122,40 +122,46 @@ SiteVerificationTag = "XYZabc"
   keys = [ "title", "permalink", "summary", "content" ]
 
 [[menu.main]]
-identifier = "Posts"
-name = "Posts"
-url = "/posts/"
+identifier = "portfolio"
+name = "Portfolio"
+url = "/portfolio/"
 weight = 10
-
-[[menu.main]]
-identifier = "Portfólio"
-name = "Portfólio"
-url = "/Portfólio/"
-weight = 20
-
-[[menu.main]]
-identifier = "Sobre Mim"
-name = "Sobre Mim"
-url = "/posts/sobre"
-weight = 30
 
 [[menu.main]]
 identifier = "tags"
 name = "Tags"
 url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "Posts"
+name = "Posts"
+url = "/posts/"
+weight = 30
+
+[[menu.main]]
+identifier = "Portfólio"
+name = "Portfólio"
+url = "/Portfólio/"
 weight = 40
+
+[[menu.main]]
+identifier = "Sobre Mim"
+name = "Sobre Mim"
+url = "/posts/sobre"
+weight = 50
 
 [[menu.main]]
 identifier = "Resumo"
 name = "Resumo"
 url = "https://rxresu.me/brendo.trindade/resumo"
-weight = 50
+weight = 60
 
 [[menu.main]]
 identifier = "Linktree"
 name = "Linktree"
 url = "https://linktr.ee/brendo_trindade"
-weight = 60
+weight = 70
 
 [markup.highlight]
 noClasses = false
