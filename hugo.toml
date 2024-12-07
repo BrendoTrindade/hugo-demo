@@ -142,14 +142,18 @@ weight = 30
 [[menu.main]]
 identifier = "curriculo"
 name = "Currículo"
-url = "javascript:window.open('https://rxresu.me/brendo.trindade/resumo', '_blank')"
+url = "https://rxresu.me/brendo.trindade/resumo"
 weight = 40
+pre = '<a target="_blank">'
+post = '</a>'
 
 [[menu.main]]
 identifier = "linktree"
 name = "Linktree"
 url = "https://linktr.ee/brendo_trindade"
 weight = 50
+pre = '<a target="_blank">'
+post = '</a>'
 
 [markup.highlight]
 noClasses = false
