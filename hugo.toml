@@ -142,16 +142,14 @@ weight = 30
 [[menu.main]]
 identifier = "curriculo"
 name = "Currículo"
-url = "https://rxresu.me/brendo.trindade/resumo"
+url = "/curriculo/"
 weight = 40
-params = { target = "_blank", rel = "noopener" }
 
 [[menu.main]]
 identifier = "linktree"
 name = "Linktree"
 url = "https://linktr.ee/brendo_trindade"
 weight = 50
-params = { target = "_blank", rel = "noopener" }
 
 [markup.highlight]
 noClasses = false
