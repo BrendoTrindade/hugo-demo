@@ -2,54 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/aws/</loc>
+    <loc>http://localhost:34417/tags/aws/</loc>
     <lastmod>2023-09-27T21:29:31-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portf%C3%B3lio/criando-um-cluster-eks-na-aws-usando-pulumi/</loc>
+    <loc>http://localhost:34417/portf%C3%B3lio/criando-um-cluster-eks-na-aws-usando-pulumi/</loc>
     <lastmod>2023-09-27T21:29:31-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portf%C3%B3lio/arquitetura_duas_camadas/</loc>
+    <loc>http://localhost:34417/portf%C3%B3lio/arquitetura_duas_camadas/</loc>
     <lastmod>2023-09-27T21:29:31-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:34417/</loc>
     <lastmod>2023-09-27T21:29:31-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portf%C3%B3lio/greenazul/</loc>
+    <loc>http://localhost:34417/portf%C3%B3lio/greenazul/</loc>
     <lastmod>2023-09-27T21:29:31-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/portf%C3%B3lio/</loc>
+    <loc>http://localhost:34417/portf%C3%B3lio/</loc>
     <lastmod>2023-09-27T21:29:31-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/portifolio/</loc>
+    <loc>http://localhost:34417/tags/portifolio/</loc>
     <lastmod>2023-09-27T21:29:31-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/pulumi/</loc>
+    <loc>http://localhost:34417/tags/pulumi/</loc>
     <lastmod>2023-09-27T21:29:31-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:34417/tags/</loc>
     <lastmod>2023-09-27T21:29:31-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/terraform/</loc>
+    <loc>http://localhost:34417/tags/terraform/</loc>
     <lastmod>2023-09-27T21:29:31-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/wordpress/</loc>
+    <loc>http://localhost:34417/tags/wordpress/</loc>
     <lastmod>2023-09-27T21:29:31-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:34417/posts/</loc>
     <lastmod>2022-10-07T16:29:31-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/sobre/</loc>
+    <loc>http://localhost:34417/tags/sobre/</loc>
     <lastmod>2022-10-07T16:29:31-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/sobre/</loc>
+    <loc>http://localhost:34417/posts/sobre/</loc>
     <lastmod>2022-10-07T16:29:31-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/first/</loc>
+    <loc>http://localhost:34417/tags/first/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/simple-post/</loc>
+    <loc>http://localhost:34417/posts/simple-post/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:34417/categories/</loc>
   </url>
 </urlset>
