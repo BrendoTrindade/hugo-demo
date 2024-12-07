@@ -142,7 +142,7 @@ weight = 30
 [[menu.main]]
 identifier = "curriculo"
 name = "Currículo"
-url = "/curriculo/"
+url = "javascript:window.open('https://rxresu.me/brendo.trindade/resumo', '_blank')"
 weight = 40
 
 [[menu.main]]
