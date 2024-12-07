@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Aws on Home</title>
-    <link>http://localhost:34417/tags/aws/</link>
+    <link>http://localhost:1313/tags/aws/</link>
     <description>Recent content in Aws on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Wed, 27 Sep 2023 21:29:31 -0300</lastBuildDate><atom:link href="http://localhost:34417/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Sep 2023 21:29:31 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/aws/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Criando um Cluster EKS na AWS usando Pulumi </title>
-      <link>http://localhost:34417/portf%C3%B3lio/criando-um-cluster-eks-na-aws-usando-pulumi/</link>
+      <link>http://localhost:1313/portf%C3%B3lio/criando-um-cluster-eks-na-aws-usando-pulumi/</link>
       <pubDate>Wed, 27 Sep 2023 21:29:31 -0300</pubDate>
       
-      <guid>http://localhost:34417/portf%C3%B3lio/criando-um-cluster-eks-na-aws-usando-pulumi/</guid>
+      <guid>http://localhost:1313/portf%C3%B3lio/criando-um-cluster-eks-na-aws-usando-pulumi/</guid>
       <description>&lt;h2 id=&#34;criando-um-cluster-eks-na-aws-usando-pulumi-e-com-deployament-de-aplicação&#34;&gt;&amp;ldquo;Criando um Cluster EKS na AWS usando Pulumi e com deployament de Aplicação&amp;rdquo;&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;h3 id=&#34;nesse-projeto-foram-usado-as-seguintes-tecnologias&#34;&gt;Nesse projeto foram usado as seguintes tecnologias&lt;/h3&gt;
@@ -120,10 +120,10 @@
     
     <item>
       <title>Criando uma arquitetura de duas camadas na AWS usando Terraform </title>
-      <link>http://localhost:34417/portf%C3%B3lio/arquitetura_duas_camadas/</link>
+      <link>http://localhost:1313/portf%C3%B3lio/arquitetura_duas_camadas/</link>
       <pubDate>Wed, 27 Sep 2023 21:29:31 -0300</pubDate>
       
-      <guid>http://localhost:34417/portf%C3%B3lio/arquitetura_duas_camadas/</guid>
+      <guid>http://localhost:1313/portf%C3%B3lio/arquitetura_duas_camadas/</guid>
       <description>&lt;h2 id=&#34;implantação-uma-arquitetura-de-duas-camadas-na-aws-usando-terraform&#34;&gt;&amp;ldquo;Implantação uma arquitetura de duas camadas na AWS usando Terraform&amp;rdquo;&lt;/h2&gt;
 &lt;p&gt;Confira o código completo aqui no &lt;a href=&#34;https://github.com/BrendoTrindade/aws-duas-camadas.git&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -154,10 +154,10 @@
     
     <item>
       <title>Implantação Azul/Verde na AWS com Terraform: Grupos-alvo ponderados </title>
-      <link>http://localhost:34417/portf%C3%B3lio/greenazul/</link>
+      <link>http://localhost:1313/portf%C3%B3lio/greenazul/</link>
       <pubDate>Wed, 27 Sep 2023 21:29:31 -0300</pubDate>
       
-      <guid>http://localhost:34417/portf%C3%B3lio/greenazul/</guid>
+      <guid>http://localhost:1313/portf%C3%B3lio/greenazul/</guid>
       <description>&lt;h2 id=&#34;implantação-azulverde-na-aws-demonstração-de-infraestrutura-com-terraform&#34;&gt;&amp;ldquo;Implantação Azul/Verde na AWS: Demonstração de Infraestrutura com Terraform&amp;rdquo;&lt;/h2&gt;
 &lt;p&gt;Confira o código completo aqui no &lt;a href=&#34;https://github.com/BrendoTrindade/aws-verde-azul.git&#34;&gt;github&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;

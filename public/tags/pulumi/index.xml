@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Pulumi on Home</title>
-    <link>http://localhost:34417/tags/pulumi/</link>
+    <link>http://localhost:1313/tags/pulumi/</link>
     <description>Recent content in Pulumi on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Wed, 27 Sep 2023 21:29:31 -0300</lastBuildDate><atom:link href="http://localhost:34417/tags/pulumi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Sep 2023 21:29:31 -0300</lastBuildDate><atom:link href="http://localhost:1313/tags/pulumi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Criando um Cluster EKS na AWS usando Pulumi </title>
-      <link>http://localhost:34417/portf%C3%B3lio/criando-um-cluster-eks-na-aws-usando-pulumi/</link>
+      <link>http://localhost:1313/portf%C3%B3lio/criando-um-cluster-eks-na-aws-usando-pulumi/</link>
       <pubDate>Wed, 27 Sep 2023 21:29:31 -0300</pubDate>
       
-      <guid>http://localhost:34417/portf%C3%B3lio/criando-um-cluster-eks-na-aws-usando-pulumi/</guid>
+      <guid>http://localhost:1313/portf%C3%B3lio/criando-um-cluster-eks-na-aws-usando-pulumi/</guid>
       <description>&lt;h2 id=&#34;criando-um-cluster-eks-na-aws-usando-pulumi-e-com-deployament-de-aplicação&#34;&gt;&amp;ldquo;Criando um Cluster EKS na AWS usando Pulumi e com deployament de Aplicação&amp;rdquo;&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;h3 id=&#34;nesse-projeto-foram-usado-as-seguintes-tecnologias&#34;&gt;Nesse projeto foram usado as seguintes tecnologias&lt;/h3&gt;
