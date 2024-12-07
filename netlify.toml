@@ -1,7 +1,7 @@
 [build]
 command = """
+rm -rf public || true
 hugo --gc --minify
-cp -r static/* public/
 """
 publish = "public"
 
