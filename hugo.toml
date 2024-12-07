@@ -1,4 +1,4 @@
-baseURL = "http://127.0.0.1:8080/"
+baseURL = "https://marcostrindadezz.netlify.app/"
 languageCode = "pt-br"
 title = "Home"
 theme = "PaperMod"
@@ -16,7 +16,7 @@ displayFullLangName = true
 enabled = true
 title = "DEVOPS ENGINEER | CLOUD ANALYST"
 subtitle = "Welcome to my Blog"
-imageUrl = "/images/brendo.png"
+imageUrl = "images/brendo.png"
 imageWidth = 240
 imageHeight = 240
 imageTitle = "Meu Avatar"
