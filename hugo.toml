@@ -134,9 +134,9 @@ url = "/tags/"
 weight = 20
 
 [[menu.main]]
-identifier = "about"
+identifier = "sobre"
 name = "Sobre Mim"
-url = "/about/"
+url = "/posts/sobre/"
 weight = 30
 
 [[menu.main]]
