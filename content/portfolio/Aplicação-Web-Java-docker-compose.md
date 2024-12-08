@@ -11,3 +11,21 @@ cover:
   relative: false
   hidden: false
 ---
+
+## Implementação de uma Aplicação Java Multi-Container com Docker
+
+Este artigo documenta a implementação de uma aplicação Java de login usando Docker Compose, com uma arquitetura multi-container incluindo Nginx, Tomcat e MySQL.
+
+## Visão Geral do Projeto
+
+### Objetivos
+- Implementar uma aplicação Java de login
+- Utilizar arquitetura multi-container com Docker Compose
+- Configurar proxy reverso com Nginx
+- Implementar persistência de dados com MySQL
+- Automatizar o deployment com Terraform na AWS
+
+### Arquitetura
+- **Frontend/Proxy**: Nginx na porta 80
+- **Aplicação**: Tomcat na porta 8080
+- **Banco de Dados**: MySQL na porta 3306
