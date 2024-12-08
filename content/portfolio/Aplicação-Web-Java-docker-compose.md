@@ -2,14 +2,14 @@
 title: "Dockerize a Java Web Application using docker-compose"
 date: 2024-12-27T21:29:31-03:00
 draft: false
-tags: ['terraform', 'portifolio', 'aws', 'Java', 'Docker'  ]
+tags: ['terraform', 'portifolio', 'aws', 'Java', 'Docker']
 
 cover:
-  image: "/banner/aws-docker-architecture-complete.png" # image path/url
-  alt: "<alt text>" # alt text
-  caption: "<text>" # display caption under cover
-  relative: false # when using page bundles set this to true
-  hidden: false # only hide on current single page
+  image: "/banner/aws-docker-architecture-complete.png"
+  alt: "Arquitetura Docker Compose para Aplicação Java"
+  caption: "Dockerização de Aplicação Java Multi-Container"
+  relative: false
+  hidden: false
 ---
 
 # Implementação de uma Aplicação Java Multi-Container com Docker
@@ -204,75 +204,40 @@ docker exec java-login-app-tomcat-1 mysql -h mysql -uloginuser -ploginpass -e "U
 
 ## Resultados e Conclusões
 
-### Benefícios da Arquitetura Dockerizada
-
-1. **Escalabilidade**: A arquitetura multi-container permite escalar componentes independentemente
-2. **Portabilidade**: Ambiente consistente entre desenvolvimento e produção
-3. **Isolamento**: Cada serviço opera em seu próprio container
-4. **Facilidade de Manutenção**: Atualizações e rollbacks simplificados
-
 ### Desafios Encontrados
-- Configuração de comunicação entre containers
-- Gerenciamento de volumes e persistência de dados
-- Otimização de performance para aplicações Java
-
-### Próximos Passos
-- Implementar monitoramento com Prometheus e Grafana
-- Adicionar camada de cache com Redis
-- Configurar CI/CD com GitHub Actions
-- Implementar testes automatizados
-
-### Considerações Finais
-Esta solução demonstra uma arquitetura moderna de aplicações web, utilizando tecnologias como Docker, Java, Nginx e MySQL. A abordagem containerizada oferece flexibilidade, escalabilidade e facilita o desenvolvimento e deployment de aplicações empresariais.
-
-**Tecnologias Utilizadas**:
-- Docker
-- Docker Compose
-- Java 8
-- Tomcat 9
-- MySQL 8
-- Nginx
-- Terraform
-- AWS EC2
-
-**Tempo de Desenvolvimento**: Aproximadamente 40 horas
-**Complexidade**: Intermediário a Avançado
+1. Configuração de comunicação entre containers
+2. Gerenciamento de volumes e persistência
+3. Complexidade de configurações de rede em ambientes Docker
+4. Necessidade de otimização contínua
 
 ### Objetivos Alcançados
-- Deployment multi-container funcionando
-- Proxy reverso Nginx configurado
-- Integração entre Tomcat e MySQL
-- Configuração de ambiente de desenvolvimento reproduzível
-- Infraestrutura como Código (IaC) com Terraform
-- Segurança de rede com Security Groups
+- ✅ Deployment multi-container funcionando
+- ✅ Proxy reverso Nginx configurado
+- ✅ Integração entre Tomcat e MySQL
+- ✅ Configuração de ambiente de desenvolvimento reproduzível
+- ✅ Infraestrutura como Código (IaC) com Terraform
+- ✅ Segurança de rede com Security Groups
 
 ### Métricas de Sucesso
 - **Tempo de Inicialização**: < 30 segundos
 - **Disponibilidade**: 99.9%
-- **Escalabilidade**: Suporte a até 100 usuários simultâneos
-- **Consumo de Recursos**: 
-  - CPU: 20-30% 
-  - Memória: 512MB-1GB
-  - Disco: 5GB
+- **Escalabilidade**: Suporte para 100 usuários simultâneos
+- **Consumo de Recursos**:
+  * CPU: 20-30%
+  * Memória: 512MB-1GB
+  * Disco: 5GB
 
-### Lições Aprendidas
-1. Importância da modularização de serviços
-2. Benefícios de containerização para desenvolvimento
-3. Complexidade de configurações de rede em ambientes Docker
-4. Necessidade de otimização contínua
-
-## Atualização de Conteúdo
-
-*Verificação de integridade do documento realizada em: {{ current_timestamp }}*
-
-## Atualização de Timestamp
-
-*Última atualização realizada em: {{ current_timestamp }}*
+## Próximos Passos
+1. Implementar monitoramento com Prometheus/Grafana
+2. Adicionar camada de cache com Redis
+3. Configurar CI/CD com GitHub Actions
+4. Implementar testes automatizados
+5. Configurar HTTPS com Let's Encrypt
 
 ## Referências
 - [Docker Documentation](https://docs.docker.com)
 - [Terraform AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
-- [Tomcat Configuration Guide](https://tomcat.apache.org/tomcat-9.0-doc/)
-- [MySQL Documentation](https://dev.mysql.com/doc/)
-- [AWS Documentation](https://docs.aws.amazon.com/)
-- [Nginx Documentation](https://nginx.org/en/docs/)
+- [Nginx Proxy Configuration](https://nginx.org/en/docs/)
+- [Tomcat Documentation](https://tomcat.apache.org/tomcat-9.0-doc/)
+
+*Última atualização: Dezembro de 2023*
