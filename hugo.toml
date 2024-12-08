@@ -1,83 +1,40 @@
-baseURL = "https://marcostrindadezz.netlify.app/"
-languageCode = "pt-br"
-title = "Home"
+baseURL = "https://brendotrindade.netlify.app/"
+title = "Brendo Blog"
 theme = "PaperMod"
 
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
 [params]
-defaultTheme = "dark"
+env = "production"
+title = "Brendo Blog"
+description = "Blog pessoal de Brendo Trindade"
+keywords = ["Blog", "Portfolio", "DevOps"]
+author = "Brendo Trindade"
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
 ShowReadingTime = true
 ShowShareButtons = true
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
-displayFullLangName = true
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
 
 [params.profileMode]
 enabled = true
-title = "DEVOPS ENGINEER | CLOUD ANALYST"
-subtitle = "Welcome to my Blog"
-imageUrl = "images/brendo.png"
-imageWidth = 240
-imageHeight = 240
-imageTitle = "Meu Avatar"
-
-[[params.profileMode.buttons]]
-name = "Posts"
-url = "/posts"
-
-[[params.profileMode.buttons]]
-name = "Tags"
-url = "/tags"
-
-[[params.profileMode.buttons]]
-name = "Portfólio"
-url = "/portfolio"
-
-[[params.socialIcons]]
-name = "linkedin"
-url = "https://www.linkedin.com/in/brendo-trindade/"
+title = "Brendo Trindade"
+subtitle = "DevOps Engineer"
+imageUrl = "brendo.png"
+imageTitle = "my image"
 
 [[params.socialIcons]]
 name = "github"
-url = "https://github.com/BrendoTrindade"
+url = "https://github.com/MarcosTrindadezz"
 
 [[params.socialIcons]]
-name = "telegram"
-url = "https://t.me/brendo_trindade"
-
-[[params.socialIcons]]
-name = "email"
-url = "mailto:brendofut44@gmail.com"
-
-[[menu.main]]
-name = "Posts"
-url = "/posts/"
-weight = 10
-
-[[menu.main]]
-name = "Portfólio"
-url = "/portfolio/"
-weight = 20
-
-[[menu.main]]
-name = "Sobre Mim"
-url = "/sobre-mim/"
-weight = 30
-
-[[menu.main]]
-name = "Tags"
-url = "/tags/"
-weight = 40
-
-[[menu.main]]
-name = "Resumo"
-url = "https://rxresu.me/brendo.trindade/resumo"
-weight = 50
-
-[[menu.main]]
-name = "Linktree"
-url = "https://linktr.ee/brendo_trindade"
-weight = 60
-
-[markup.goldmark.renderer]
-unsafe = true
+name = "linkedin"
+url = "https://www.linkedin.com/in/brendo-trindade-a71596251/"
