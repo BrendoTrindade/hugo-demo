@@ -1,0 +1,4 @@
+---
+title: "Currículo"
+layout: "curriculo"
+---
