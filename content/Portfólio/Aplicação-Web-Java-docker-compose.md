@@ -12,7 +12,6 @@ cover:
   hidden: false # only hide on current single page
 ---
 
-
 # Implementação de uma Aplicação Java Multi-Container com Docker
 
 Este artigo documenta a implementação de uma aplicação Java de login usando Docker Compose, com uma arquitetura multi-container incluindo Nginx, Tomcat e MySQL.
@@ -262,7 +261,7 @@ Esta solução demonstra uma arquitetura moderna de aplicações web, utilizando
 3. Complexidade de configurações de rede em ambientes Docker
 4. Necessidade de otimização contínua
 
-### Referências
+## Referências
 - [Docker Documentation](https://docs.docker.com)
 - [Terraform AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)
 - [Tomcat Configuration Guide](https://tomcat.apache.org/tomcat-9.0-doc/)
