@@ -104,3 +104,91 @@ server {
         proxy_set_header X-Forwarded-Proto $scheme;
     }
 }
+```
+
+### 3. Docker Compose Configuration
+```yaml
+version: '3.8'
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - tomcat
+
+  tomcat:
+    build: 
+      context: ./tomcat
+      dockerfile: Dockerfile
+    depends_on:
+      - mysql
+    environment:
+      - MYSQL_HOST=mysql
+      - MYSQL_PORT=3306
+      - MYSQL_DATABASE=logindb
+      - MYSQL_USER=loginuser
+      - MYSQL_PASSWORD=loginpass
+
+  mysql:
+    image: mysql:8.0
+    environment:
+      MYSQL_DATABASE: logindb
+      MYSQL_USER: loginuser
+      MYSQL_PASSWORD: loginpass
+      MYSQL_ROOT_PASSWORD: rootpass
+    volumes:
+      - mysql-data:/var/lib/mysql
+      - ./mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+volumes:
+  mysql-data:
+```
+
+### 4. Deployment Workflow
+
+#### Build and Run
+```bash
+# Construir e iniciar os containers
+docker-compose up --build -d
+
+# Verificar status dos containers
+docker-compose ps
+
+# Parar e remover containers
+docker-compose down
+```
+
+### 5. Desafios e Soluções
+
+#### Gerenciamento de Dependências
+- Utilizei `depends_on` para garantir a ordem de inicialização dos containers
+- Implementei scripts de inicialização para configuração do banco de dados
+- Adicionei verificações de saúde para garantir a disponibilidade dos serviços
+
+#### Configurações de Segurança
+- Senhas definidas como variáveis de ambiente
+- Volumes separados para persistência de dados
+- Configurações mínimas de segurança no Nginx e Tomcat
+
+### 6. Considerações Finais
+
+#### Benefícios da Arquitetura
+- **Escalabilidade**: Fácil adição ou remoção de containers
+- **Portabilidade**: Ambiente consistente em diferentes máquinas
+- **Isolamento**: Cada serviço em seu próprio container
+- **Facilidade de Manutenção**: Configurações centralizadas no `docker-compose.yml`
+
+### Repositório
+Confira o código completo no GitHub: [Java Login App Docker Compose](https://github.com/BrendoTrindade/java-login-docker)
+
+### Tecnologias Utilizadas
+- Docker
+- Docker Compose
+- Java
+- Tomcat
+- Nginx
+- MySQL
+- AWS (opcional)
